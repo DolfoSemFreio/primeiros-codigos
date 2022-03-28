@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <h1>Seja bem vindo</h1>
+    <style>
+    body {background-color: rgb(255, 255, 255);
+    font: normal 24pt italic;
+    
+}
+
+</style>
+</head>
+<body>
+    <script> 
+    var nome = window.prompt('Qual o seu nome:')
+    var idade = window.prompt('Quantos anos vc tem')
+    var infelizmente = idade >=18 ? 'Seu cadastro foi realizado' :'Infelizmente só aceitamos maiores de 18'
+    document.write(`Ola <strong>${nome.toUpperCase()}</strong>, é um prazer telo aqui conosco. </br>`)
+    document.write(infelizmente)
+    
+    
+    
+    </script>
+    
+</body>
+</html>

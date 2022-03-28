@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(63, 66, 66);
+    font: normal 15pt Arial;
+
+}
+header {
+    color: white;
+    text-align: center;
+
+
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+    text-align: center;
+    
+
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic
+
+} #tab {
+    width: 150px;
+} #finalizar {
+    border-radius: 10px;
+    border-color: rgb(218, 215, 215);
+    border-width: 1px;
+    box-shadow: 5px 5px 10px rgb(184, 183, 183);
+    background-color: rgba(224, 224, 224, 0.514);
+}

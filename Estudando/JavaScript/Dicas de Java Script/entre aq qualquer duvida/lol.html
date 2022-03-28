@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem</title>
+    
+</head>
+<body>
+    <h1>Bem vindo</h1>
+    Sua nota: <input type="number" id="somar">
+    <input type="button" value="Resultado" onclick="res()"><br>
+    Voce esta:<div id="res1">
+    
+
+
+
+    
+    <script>
+    function res() {
+     var a1 = document.querySelector('input#somar')
+     var r1 = document.querySelector('div#res1')
+     var n2 = Number(a1.value)
+     
+     
+    
+    
+     if (n2 < 60){
+             
+         r1.innerHTML += `<strong>REPROVADO</strong><br>`
+     } 
+     else {
+         r1.innerHTML += `<strong>APROVADO</strong><br>`
+     }
+         
+             
+    }
+    </script>
+    
+</body>
+</html>

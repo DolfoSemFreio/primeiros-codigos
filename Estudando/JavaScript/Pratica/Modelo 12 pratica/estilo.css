@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(63, 66, 66);
+    font: normal 15pt Arial;
+
+}
+header {
+    color: white;
+    text-align: center;
+
+
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+    
+    
+
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic
+
+} #tab {
+
+        width: 140px;
+    
+} #but {
+    border-radius: 10px;
+    border-color: rgba(112, 111, 111, 0.555);
+    background-color: rgb(129, 246, 250);
+    box-shadow: 5px 5px 15px rgb(146, 145, 145);
+} #fina {
+    border-radius: 10px;
+    border-color: rgba(112, 111, 111, 0.555);
+    background-color: rgb(182, 243, 125);
+    box-shadow: 5px 5px 15px rgb(146, 145, 145);
+}

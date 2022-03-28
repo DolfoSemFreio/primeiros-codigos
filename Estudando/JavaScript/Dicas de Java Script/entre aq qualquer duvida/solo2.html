@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo</title>
+    <style>
+        div#area {
+        font: normal 20pt Arial;
+        background-color: black;
+        color: white;
+        width: 500px;
+        height: 500px;
+        line-height: 500px;
+        text-align: center;
+
+
+        
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="area">Interaja..</div>
+    <input type ="button" value ='Somar' onclick="Somar()" >
+    <input type ="number" name ='number1' id ='number1'>
+    <input type ='number' name ='number2' id ='number2'> <!--input adc blocos de interaçao na tela-->
+    <div id="res">Resultado:</div>
+    
+    
+    
+    <script>
+        
+        var a = window.document.querySelector('div#area')
+        a.addEventListener('click', clicar) // addEventListener serve pra dar a funçao de cada function, entre aspas sao as ações e dps da virgula sao os nomes que voce deu para a ação.
+        a.addEventListener('mouseout', sair)
+        a.addEventListener('mouseenter', entrar)
+
+        function Somar (){ // {} é mt importante para separas as açoes dentro do script
+            var n1 = window.document.querySelector('input#number1') //querySelector é a mesma coisa q getElementsByTagName, porem é mt melhor, vc tecnicamente puxar uma acao pelo id que vc deu.
+            var n2 = window.document.querySelector('input#number2')
+            var res = window.document.querySelector('div#res')
+            var s1 = Number(number1.value)
+            var s2 = Number(number2.value) // pra fazer uma conta de somar é preciso colocar o"Number(x.value) 
+            var s = s1 + s2
+            res.innerHTML = `Resultado: ${s}`
+ }
+    
+        
+        function clicar() { // sempre colocar o () dps (clicar ou etc..)
+            a.innerText = `Clicou `
+            a.style.background = 'green';}
+            function sair() {
+                a.innerText = 'Saiu'
+                a.style.background = 'red'
+            }
+            function entrar() {
+                a.innerText = 'Entrou'
+                a.style.background = 'blue'
+            }
+// lembrar de que precisar ter o mesmo nome pra usar de comando
+// window é tudo que aparece na tela
+
+
+
+
+    </script>
+    
+</body>
+</html>

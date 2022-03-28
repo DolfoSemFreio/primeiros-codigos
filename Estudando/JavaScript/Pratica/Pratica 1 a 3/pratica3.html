@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 3</title>
+</head>
+<body>
+    <h1>Bem Vindo ao meu site</h1> 
+    <p>Escolha um numero de 1 a 99:</p>
+    Pressione:<input type="number" id="a1">
+    <input type="button" value="Clicar" onclick="clik()"><br>
+    <div id="res"></div>
+
+    
+    <script>
+        function clik() {
+            var n1 = document.querySelector('input#a1')
+            var n2 = document.querySelector('div#res')
+            var n3 = Number(n1.value)
+            n2.innerHTML = `<p>Seu numero é <strong>${n3}</strong></p>`
+            if (n3 === 37){
+                n2.innerHTML += `<p>CARALHOOO, VOCE ESCOLHEU A POHA DO NUMERO CERTO</p>`
+
+            } else {
+                n2.innerHTML += '<p>Errou vacilao do caralho, perdeu <strong>1 MILHÃO</strong></p>'
+            }
+            
+
+
+
+
+
+        }
+        
+
+
+    </script>
+    
+
+    
+</body>
+</html>

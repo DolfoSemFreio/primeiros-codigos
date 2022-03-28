@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(63, 66, 66);
+    font: normal 15pt Arial;
+
+}
+header {
+    color: white;
+    text-align: center;
+
+
+}
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+    text-align: center;
+    
+
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic
+
+}
+#num1 {
+    border-radius: 20px;
+    border-color: rgb(206, 206, 206);
+    padding: 10px;
+    background-color: rgb(206, 206, 206);
+    
+}
+#but {
+    border-radius: 10px;
+    border-color: grey;
+
+} #seltab {
+    background-color: rgb(219, 219, 219);
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgb(148, 148, 148);
+    padding: 12px;
+    width: 100%;
+}

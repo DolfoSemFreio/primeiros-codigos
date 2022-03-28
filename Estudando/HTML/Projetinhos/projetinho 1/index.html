@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculando medidas</h1>
+        <section>
+            <div>
+                Distancia em metros: <input type="number" id="num" placeholder="Digite aqui..."><input type="button" value="Calcular" id="but" onclick="calcular()"> <br>
+                Qual o tipo de medida: <br>
+                  <div id="rad">
+                    <li><input type="radio" name="radmedida" id="mm">
+                        <label for="mm">Milímetro</label>
+                        <li><input type="radio" name="radmedida" id="cm" >
+                        <label for="cm">Centímetro</label> 
+                        <li><input type="radio" name="radmedida" id="hm">
+                        <label for="hm">Decímetro</label>
+                        <li><input type="radio" name="radmedida" id="km">
+                        <label for="km">Quilômetro</label>
+                        <li><input type="radio" name="radmedida" id="hm">
+                        <label for="hm">Hectômetro</label>
+                        <li><input type="radio" name="radmedida" id="dam">
+                        <label for="dam">Decâmetro</label>
+                  </div>  
+            </div>
+            <div id="res">
+
+            </div>
+        </section>
+    </header>
+    <script src="button.js"></script>
+</body>
+</html>

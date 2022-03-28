@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solo2</title>
+    
+
+    <style> 
+    body {background-color: rgb(243, 240, 240);
+    font: normal 35pt Arial; 
+
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Ola mundo</h1>
+    <p>Aqui o <strong>resultado</resultado></strong></p>
+    <p>Aprendendo usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id='msg'>Clique em mim</div>
+
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1] //getElenebtsByTagName serve para escolher o elemento que vc quer do site o [] é para indicar qual caso tenha mais de um
+        window.document.write('Esta escrito assim: ' + p1.innerText) // innerText é para pegar o texto do paragrafo, innerHTML puxa o comando todo
+        p1.style.color = 'blue' // .style muda as caracteristicas 
+        var d = window.document.getElementById('msg')
+        d.innerText = 'Clique em mim' 
+        d.style.color = 'blue'
+        var a = window.document.querySelector('div#msg') // querySelector é a mesma coisa q getElementsByTagName, porem é mt melhor
+        a.style.color = 'red'
+
+    </script>
+    
+</body>
+</html>

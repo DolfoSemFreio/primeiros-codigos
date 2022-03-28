@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica 4 </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    
+    <header>
+        <h1>Gerador de resultados</h1>
+    </header>
+    <section>
+        <div id="cadastro">  
+            Numero: <input type="number" id="n1" placeholder="Digite aqui..."> <input type='button' id="but" value="Adicionar" onclick='Adicionar()'><br><br>
+            <select   select size="5" id="tab">   
+                
+            </select>
+          
+        </div>    
+        <div id="result">
+            <select id="opt" onchange="opt()">
+                <option id="divi">Divisão pos si mesmo</option>
+                <option id="raiz">Raiz</option>
+                <option id="fato">Fatorial</option>
+                <option id="multi">Multiplicação</option>
+
+            </select>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoEmVIdeo</p>
+    </footer>
+    
+    <script src="script.js">
+    </script>
+
+    
+</body>
+</html>

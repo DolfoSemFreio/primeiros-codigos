@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptável</title>
+    <style>
+        body {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <li>Para voltar a pagina incial <a href="index.html">CLIQUE AQUI</a></li>
+    <picture>
+        <source media="(max-width: 720px )" srcset="imagens/foto_p.png" type="image/png"> <!--imgens menores vem primeiro -->
+        <source media="(max-width: 1020px )" srcset="imagens/foto_m.png" type="image/png">
+        <img src="imagens/foto_g.png" alt="imagem flexível"> <!--em baixo fica a imagem padrao que voce quer colocar, so pode ser a grande ou a pequena, e precisa seguir a ordem de tamanho-->
+    </picture>
+</body>
+</html>

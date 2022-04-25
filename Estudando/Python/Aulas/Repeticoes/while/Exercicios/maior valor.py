@@ -13,4 +13,4 @@ while continua in 'Ss':
             menor = num
     continua = input('Quer continuar? [S/N]: ').upper().strip()
 media = soma/cont
-print(f'Fim{maior}{menor}{media}')
+print(f'Fim{maior} ,{menor} ,{media}')

@@ -1,7 +1,7 @@
 print('-'*40)
 print('          LOJA SUPER BARATAO')
 print('-'*40)
-res = barato = ''
+barato = ''
 preco = tot = menor = totmil = cont = 0
 while True:
     produto = str(input('Nome do Produto: ')).strip()

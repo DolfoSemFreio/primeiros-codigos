@@ -1,3 +1,4 @@
+import time
 print('-'*31)
 print(f'{"BANCO LOPES":^30}')
 print('-'*31)
@@ -27,3 +28,4 @@ while True:
                 break
 print('-'* 31)
 print('Obrigado, volte sempre!')
+time.sleep(10)

@@ -11,15 +11,11 @@ while True:
     tot += preco
     if preco > 1000:
         totmil += 1
-    if cont == 1:
+    if cont == 1 or preco < menor:
         menor = preco
         barato = produto
-    else:
-        if preco < menor:
-            menor = preco
-            barato = produto
     while res not in 'SN':
-        res = input('Ivalido tente novamente, mas so use [S/N] ').strip().upper()[0]
+        res = str(input('Ivalido tente novamente, mas so use [S/N] ')).strip().upper()[0]
     if res == 'N':
         break
 print('-'*6, 'FIM DO PROGAMA', '-'*6)

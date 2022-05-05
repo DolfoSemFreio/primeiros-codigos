@@ -7,18 +7,12 @@ while True:
     print('-'*25)
     idade = int(input('Idade: '))
     sexo = str(input('Sexo: [M/F] ')).strip().upper()[0]
-
-    while True:
-        if sexo not in 'MF':
-            sexo = input('Sexo: [M/F]').strip().upper()[0]
-        else:
-            break
+    while sexo not in 'MF':
+        sexo = input('Sexo: [M/F]').strip().upper()[0]
     prox = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
-    while True:
-        if prox not in 'SN':
+    while prox not in 'SN':
                 prox = input('Sim ou Nao? ').strip().upper()[0]
-        else:
-            break
+
     if idade >= 18:
         cont += 1
     if sexo == 'M':

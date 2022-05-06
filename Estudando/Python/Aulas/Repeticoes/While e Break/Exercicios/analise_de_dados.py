@@ -12,7 +12,6 @@ while True:
     prox = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
     while prox not in 'SN':
                 prox = input('Sim ou Nao? ').strip().upper()[0]
-
     if idade >= 18:
         cont += 1
     if sexo == 'M':

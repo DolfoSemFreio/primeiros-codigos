@@ -1,7 +1,8 @@
 palavras = (
     'Aprender', 'Estudar', 'Progamar',
     'Desenvolver', 'Pilotar', 'Arara Azul',
-    'Desenhar', 'Pintar', 'Chorar'
+    'Desenhar', 'Pintar', 'Chorar',
+    'Cantar'
 )
 for p in palavras:
     print(f'\nNa palavra {p.upper()} temos', end=' ')

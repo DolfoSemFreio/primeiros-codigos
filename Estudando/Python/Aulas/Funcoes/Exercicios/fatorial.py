@@ -1,11 +1,23 @@
-def fatorial(num=1):
+def fatorial(num=1, show=False):
+    """
+    -> Calcula o fatorial de um numero
+
+    Args:
+        num (int, optional): Numero a ser calculado. Defaults to 1.
+        show (bool, optional): Se vai ou nao mostrar a conta. Defaults to False.
+
+    Returns:
+        retorna o resultado do fatorial
+    """
     f=1
-    for c in range(num, 0, -1):
-        f *= c
+    for c in range(num, 0, -1):   
+        if show:
+            print(c, end='')
+            if c > 1:
+                print(' x ', end='')
+            else:
+                print(' = ', end='')
+        f *= c    
     return f
 
-
-f1 = fatorial(5)
-f2 = fatorial(4)
-f3 = fatorial()
-print(f'Os resultados sao {f1}, {f2} e {f3}')
+print(fatorial(6, True))

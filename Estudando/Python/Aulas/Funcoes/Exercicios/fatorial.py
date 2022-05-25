@@ -1,23 +1,31 @@
 def fatorial(num=1, show=False):
     """
-    -> Calcula o fatorial de um numero
+    => Calcula o fatorial de um numero
 
     Args:
-        num (int, optional): Numero a ser calculado. Defaults to 1.
-        show (bool, optional): Se vai ou nao mostrar a conta. Defaults to False.
+        num (int, optional): Numero a ser fatorado. Defaults to 1.
+        show (bool, optional): Mostra ou nao a conta. Defaults to False.
 
     Returns:
-        retorna o resultado do fatorial
+        _type_: Retorna o valor do calculo
     """
-    f=1
-    for c in range(num, 0, -1):   
+    f = 1
+    for c in range(num, 0, -1):
         if show:
             print(c, end='')
             if c > 1:
                 print(' x ', end='')
             else:
                 print(' = ', end='')
-        f *= c    
+        f *= c
     return f
 
-print(fatorial(6, True))
+# Programa principal
+fato = int(input('Numero a ser fatorado: '))
+cont = input('Quer ver a conta: [S/N] ').upper().strip()[0]
+if cont == 'S':
+    cont = True
+elif cont == 'N':
+    cont = False
+print(fatorial(fato, cont))
+            

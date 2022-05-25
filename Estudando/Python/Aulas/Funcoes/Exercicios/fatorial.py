@@ -23,9 +23,12 @@ def fatorial(num=1, show=False):
 # Programa principal
 fato = int(input('Numero a ser fatorado: '))
 cont = input('Quer ver a conta: [S/N] ').upper().strip()[0]
+while cont not in 'SN':    
+    cont = input('Tente novamente. Quer ver a conta: [S/N] ').upper().strip()[0]
 if cont == 'S':
     cont = True
 elif cont == 'N':
-    cont = False
+    cont = False  
 print(fatorial(fato, cont))
+
             

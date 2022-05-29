@@ -1,0 +1,15 @@
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\bin\Debug\net6.0\saida_de_dados.exe
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\bin\Debug\net6.0\saida_de_dados.deps.json
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\bin\Debug\net6.0\saida_de_dados.runtimeconfig.json
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\bin\Debug\net6.0\saida_de_dados.dll
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\bin\Debug\net6.0\saida_de_dados.pdb
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\obj\Debug\net6.0\saida_de_dados.csproj.AssemblyReference.cache
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\obj\Debug\net6.0\saida_de_dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\obj\Debug\net6.0\saida_de_dados.AssemblyInfoInputs.cache
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\obj\Debug\net6.0\saida_de_dados.AssemblyInfo.cs
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\obj\Debug\net6.0\saida_de_dados.csproj.CoreCompileInputs.cache
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\obj\Debug\net6.0\saida_de_dados.dll
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\obj\Debug\net6.0\refint\saida_de_dados.dll
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\obj\Debug\net6.0\saida_de_dados.pdb
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\obj\Debug\net6.0\saida_de_dados.genruntimeconfig.cache
+C:\Users\Adolfo\Documents\primeiros-comandos\Estudando\C#\saida_de_dados\saida_de_dados\obj\Debug\net6.0\ref\saida_de_dados.dll

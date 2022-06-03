@@ -1,28 +1,3 @@
-def aumentando(a=0, taxa=10, formato = False):
-    s = (a * taxa/100) + a
-    return s if formato is False else moeda(s)
-
-
-def metade(a=0, formato = False):
-    s = a / 2
-    return s if not formato is False else moeda(s)
-
-
-def dobro(a=0, formato = False):
-    s = a * 2
-    return s if not formato is False else moeda(s)
-
-
-def moeda(a=0, moeda = 'R$'):
-    return f'{moeda}{a:>.2f}'.replace('.', ',')
-
-
-def diminuindo(p, des):
-    s = p - p * (des/ 100)
-    
-    return f'{des}% de redução: R${s:.2f}'
-
-
 def resumo(p, add, des):
     print('-'*30)
     print(f'{"RESUMO DO VALOR":^30}')
@@ -33,4 +8,29 @@ def resumo(p, add, des):
     print(aumentando(p, add))
     print(diminuindo(p, des))
     
+
+def dobro(p):
+    s = p * 2
+    
+    return f'Dobro do preço: R${s:.2f}'
+    
+def metade(p):
+    s = p / 2
+    
+    return f'Metade do preço: R${s:.2f}'
+
+
+def aumentando(p, a):
+    s =  p * (a / 100) + p
+    
+    return f'{a}% de aumento: R${s:.2f}'
+
+
+def diminuindo(p, des):
+    s = p - p * (des/ 100)
+    
+    return f'{des}% de redução: R${s:.2f}'
+
+def moeda(a=0, moeda = 'R$'):
+    return f'{moeda}{a:>.2f}'.replace('.', ',')
 

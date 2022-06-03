@@ -1,0 +1,2 @@
+def leiaDinheiro(r):
+    if 
